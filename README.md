@@ -1,5 +1,10 @@
 <h1>Hi 👋, I'm Phương Nguyễn </h1>
 <p>I'm currently pursuing my career in Artificial Intelligence.</p>
+
+💻 I’m working on improving my coding skills and building portfolio projects in:
+- Machine Learning
+- Data Science
+
 <h2>🚀 Languages and Tools I Use</h2>
 <p><a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="42" height="42" /></a>
 <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42" /></a>
@@ -14,5 +19,5 @@
 <h2>⚡️ Where to find me</h2>
 <p><a target="_blank" href="https://www.linkedin.com/in/https://www.linkedin.com/in/nphuong302/" style="display: inline-block;"><img src="https://img.shields.io/badge/linkedin-logo?style=for-the-badge&logo=linkedin&logoColor=white&color=%230a77b6" alt="linkedin" /></a>
 <a target="_blank" href="https://www.facebook.com/https://www.facebook.com/nphuong302" style="display: inline-block;"><img src="https://img.shields.io/badge/facebook-logo?style=for-the-badge&logo=facebook&logoColor=white&color=%230866ff" alt="facebook" /></a></p>
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=nphuong302&show_icons=true&locale=en" alt="nphuong302" /></p>
-<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=nphuong302&show_icons=true&locale=en&layout=compact" alt="nphuong302" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=nphuong302&show_icons=true&locale=en&theme=catppuccin_mocha" alt="nphuong302" /></p>
+<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=nphuong302&show_icons=true&locale=en&layout=donut&theme=catppuccin_mocha" alt="nphuong302" /></p>
