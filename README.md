@@ -1,14 +1,12 @@
-<h1>Hi 👋, I'm Phương Nguyễn</h1>
+<h1>Phương Nguyễn</h1>
 <p>
-Machine Learning Developer with a background in Software Engineering, 
-currently building practical ML & AI systems and portfolio projects.
+Machine Learning Engineer with software engineering foundation.  
+Focused on building end-to-end ML & AI systems — from data and modeling to deployment.
 </p>
 
-💻 I’m working on improving my coding skills and building portfolio projects in:
-<ul>
-  <li>Machine Learning</li>
-  <li>Data Science</li>
-</ul>
+<p>
+🌱 I'm exploring the intersection of AI, Creativity, and Ethical Technology.
+</p>
 
 <h2>🚀 Languages and Tools I Use</h2>
 <p>
@@ -54,10 +52,6 @@ currently building practical ML & AI systems and portfolio projects.
   </a>
 </p>
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=nphuong302&show_icons=true&theme=catppuccin_mocha" />
-</p>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=nphuong302&show_icons=true&theme=catppuccin_mocha" />
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nphuong302&layout=donut&theme=catppuccin_mocha" />
-</p>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=nphuong302&layout=donut&theme=catppuccin_mocha" />
