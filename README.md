@@ -52,6 +52,5 @@ Focused on building end-to-end ML & AI systems — from data and modeling to dep
   </a>
 </p>
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=nphuong302&show_icons=true&theme=catppuccin_mocha" />
-
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=nphuong302&layout=donut&theme=catppuccin_mocha" />
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=nphuong302&show_icons=true&locale=en&theme=catppuccin_mocha" alt="nphuong302" /></p>
+<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=nphuong302&show_icons=true&locale=en&layout=donut&theme=catppuccin_mocha" alt="nphuong302" /></p>
