@@ -6,10 +6,6 @@ Machine Learning Developer with a background in software engineering and control
 Interested in AI as both a technical craft and a human one — where precision, beauty, and responsibility coexist.
 </p>
 
-<p>
-<strong>Blending Technology, Art, and Ethics with human-centered intent.</strong>
-</p>
-
 
 ## 🪄 Tech Stack
 
