@@ -1,39 +1,25 @@
-name: GitHub Metrics (Everforest)
+name: GitHub Profile Summary Cards
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"   # chạy mỗi ngày 1 lần
 
 permissions:
   contents: write
 
 jobs:
-  github-metrics:
+  build:
     runs-on: ubuntu-latest
+    name: generate-github-cards
+
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-
-          user: nphuong302
-          template: classic
-          base: header  
-
-          config_timezone: Asia/Ho_Chi_Minh
-          config_theme: dark
-          config_padding: 16
-          config_border_radius: 12
-
-          # 🎨 Everforest palette 
-          config_colors: |
-            background: 2d353b
-            foreground: d3c6aa
-            highlight: a7c080
-            accent: dbbc7f
-
-          # 📊 Chỉ languages 
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 5
-          plugin_languages_sections: most-used
+          USERNAME: nphuong302
