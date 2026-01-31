@@ -12,7 +12,7 @@ jobs:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS }}
+          token: ${{ secrets.metrics }}
 
           user: nphuong302
           template: classic
