@@ -1,9 +1,12 @@
 name: GitHub Metrics (Everforest)
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   github-metrics:
@@ -25,17 +28,16 @@ jobs:
           config_border_radius: 12
 
           config_colors: |
-            background:2d353b,
-            foreground:d3c6aa,
-            highlight:a7c080,
-            accent:e69875
+            background: 2d353b
+            foreground: d3c6aa
+            highlight: a7c080
+            accent: e69875
 
           # ===== Plugins =====
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
-          plugin_languages_colors: everforest
 
           plugin_lines: yes
           plugin_traffic: yes
