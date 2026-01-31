@@ -31,7 +31,7 @@ jobs:
             background: 2d353b
             foreground: d3c6aa
             highlight: a7c080
-            accent: e69875
+            accent: dbbc7f
 
           # ===== Plugins =====
           plugin_languages: yes
@@ -39,5 +39,3 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
 
-          plugin_lines: yes
-          plugin_traffic: yes
