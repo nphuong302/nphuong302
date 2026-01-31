@@ -14,7 +14,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-
 class Block(nn.Module):
     def __init__(self, dim, activation):
         super().__init__()
@@ -24,7 +23,6 @@ class Block(nn.Module):
 
     def forward(self, x):
         return self.activation(self.norm(self.linear(x)))
-
 
 class HumanCenteredModel(nn.Module):
     """
