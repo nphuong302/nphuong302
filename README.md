@@ -3,7 +3,7 @@
 <p>
 Machine Learning Developer with a background in software engineering and control & automation.  
 
-Interested in AI as both a technical craft and a human one — where precision, beauty, and responsibility coexist.
+Interested in AI as both a technical craft and a human one.
 
 </p>
 
