@@ -24,8 +24,9 @@ class Block(nn.Module):
     def forward(self, x):
         return self.activation(self.norm(self.linear(x)))
 
-class HumanCenteredModel(nn.Module):
+class SoulAlignedNet(nn.Module):
     """
+    Project: SoulInTheLoop
     Blending Technology, Art, and Ethics with human-centered intent.
     """
     def __init__(self, dim=256):
@@ -35,11 +36,8 @@ class HumanCenteredModel(nn.Module):
         self.ethics = Block(dim, lambda x: torch.clamp(x, -1, 1))  # make it right
 
     def forward(self, x):
-        x = self.ai(x)
-        x = self.art(x)
-        x = self.ethics(x)
-        return x
+        return self.ethics(self.art(self.ai(x)))
 
-model = HumanCenteredModel()
+model = SoulAlignedNet()
 model.train()  # training continues in life
 ```
